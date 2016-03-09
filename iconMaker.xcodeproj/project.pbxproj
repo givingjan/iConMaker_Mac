@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB2C65CA1C901E4A00D987DA /* sectoin_add.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2C65C91C901E4A00D987DA /* sectoin_add.png */; };
+		BB2C65CC1C901EED00D987DA /* addfile.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2C65CB1C901EED00D987DA /* addfile.png */; };
+		BB2C65D01C90290A00D987DA /* AboutWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2C65CF1C90290A00D987DA /* AboutWindowController.swift */; };
+		BB3A1EA51C86C50F003D273F /* export_android_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3A1EA11C86C50F003D273F /* export_android_normal.png */; };
+		BB3A1EA61C86C50F003D273F /* export_android_onclick.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3A1EA21C86C50F003D273F /* export_android_onclick.png */; };
+		BB3A1EA71C86C50F003D273F /* export_ios_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3A1EA31C86C50F003D273F /* export_ios_normal.png */; };
+		BB3A1EA81C86C50F003D273F /* export_ios_onclick.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3A1EA41C86C50F003D273F /* export_ios_onclick.png */; };
+		BB3A1EAC1C86D415003D273F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3A1EAB1C86D415003D273F /* AppKit.framework */; };
+		BB3A1EB41C86E3F8003D273F /* DropView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3A1EB31C86E3F8003D273F /* DropView.m */; };
+		BB521A3D1C1E610500929E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB521A3C1C1E610500929E5D /* AppDelegate.swift */; };
+		BB521A3F1C1E610500929E5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB521A3E1C1E610500929E5D /* ViewController.swift */; };
+		BB521A411C1E610500929E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB521A401C1E610500929E5D /* Assets.xcassets */; };
+		BB521A441C1E610600929E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB521A421C1E610600929E5D /* Main.storyboard */; };
+		BB521A4E1C1E6CAF00929E5D /* JNUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB521A4D1C1E6CAF00929E5D /* JNUtility.swift */; };
+		BB521A581C1EA9E200929E5D /* android_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BB521A561C1EA9E200929E5D /* android_logo.png */; };
+		BB521A591C1EA9E200929E5D /* ios_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BB521A571C1EA9E200929E5D /* ios_logo.png */; };
+		BBFD447D1C1FC6EA00835F94 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFD447C1C1FC6EA00835F94 /* Extensions.swift */; };
+		BBFD44DB1C201F7900835F94 /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFD44DA1C201F7900835F94 /* DialogViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB2C65C91C901E4A00D987DA /* sectoin_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sectoin_add.png; sourceTree = "<group>"; };
+		BB2C65CB1C901EED00D987DA /* addfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addfile.png; sourceTree = "<group>"; };
+		BB2C65CF1C90290A00D987DA /* AboutWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutWindowController.swift; sourceTree = "<group>"; };
+		BB3A1EA11C86C50F003D273F /* export_android_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = export_android_normal.png; sourceTree = "<group>"; };
+		BB3A1EA21C86C50F003D273F /* export_android_onclick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = export_android_onclick.png; sourceTree = "<group>"; };
+		BB3A1EA31C86C50F003D273F /* export_ios_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = export_ios_normal.png; sourceTree = "<group>"; };
+		BB3A1EA41C86C50F003D273F /* export_ios_onclick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = export_ios_onclick.png; sourceTree = "<group>"; };
+		BB3A1EAB1C86D415003D273F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BB3A1EB11C86E3F7003D273F /* iconMaker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iconMaker-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB3A1EB21C86E3F8003D273F /* DropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropView.h; sourceTree = "<group>"; };
+		BB3A1EB31C86E3F8003D273F /* DropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropView.m; sourceTree = "<group>"; };
+		BB521A391C1E610500929E5D /* iconMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iconMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB521A3C1C1E610500929E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB521A3E1C1E610500929E5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB521A401C1E610500929E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB521A431C1E610600929E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB521A451C1E610600929E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB521A4D1C1E6CAF00929E5D /* JNUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JNUtility.swift; sourceTree = "<group>"; };
+		BB521A561C1EA9E200929E5D /* android_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_logo.png; sourceTree = "<group>"; };
+		BB521A571C1EA9E200929E5D /* ios_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_logo.png; sourceTree = "<group>"; };
+		BBFD447C1C1FC6EA00835F94 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BBFD44DA1C201F7900835F94 /* DialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB521A361C1E610500929E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3A1EAC1C86D415003D273F /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2C65D31C902CAC00D987DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A1EB21C86E3F8003D273F /* DropView.h */,
+				BB3A1EB31C86E3F8003D273F /* DropView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BB2C65D41C902CBC00D987DA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BBFD447C1C1FC6EA00835F94 /* Extensions.swift */,
+				BB521A4D1C1E6CAF00929E5D /* JNUtility.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		BB2C65D51C902CD900D987DA /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				BB521A3E1C1E610500929E5D /* ViewController.swift */,
+				BB2C65CF1C90290A00D987DA /* AboutWindowController.swift */,
+				BBFD44DA1C201F7900835F94 /* DialogViewController.swift */,
+			);
+			name = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		BB2C65D61C902CF500D987DA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BB521A401C1E610500929E5D /* Assets.xcassets */,
+				BB521A451C1E610600929E5D /* Info.plist */,
+				BB3A1EB11C86E3F7003D273F /* iconMaker-Bridging-Header.h */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		BB521A301C1E610500929E5D = {
+			isa = PBXGroup;
+			children = (
+				BB3A1EAB1C86D415003D273F /* AppKit.framework */,
+				BB521A3B1C1E610500929E5D /* iconMaker */,
+				BB521A3A1C1E610500929E5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB521A3A1C1E610500929E5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB521A391C1E610500929E5D /* iconMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB521A3B1C1E610500929E5D /* iconMaker */ = {
+			isa = PBXGroup;
+			children = (
+				BB521A4F1C1E710200929E5D /* resources */,
+				BB521A3C1C1E610500929E5D /* AppDelegate.swift */,
+				BB521A421C1E610600929E5D /* Main.storyboard */,
+				BB2C65D31C902CAC00D987DA /* Views */,
+				BB2C65D41C902CBC00D987DA /* Components */,
+				BB2C65D51C902CD900D987DA /* Viewcontrollers */,
+				BB2C65D61C902CF500D987DA /* Others */,
+			);
+			path = iconMaker;
+			sourceTree = "<group>";
+		};
+		BB521A4F1C1E710200929E5D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB2C65C91C901E4A00D987DA /* sectoin_add.png */,
+				BB521A561C1EA9E200929E5D /* android_logo.png */,
+				BB2C65CB1C901EED00D987DA /* addfile.png */,
+				BB521A571C1EA9E200929E5D /* ios_logo.png */,
+				BB3A1EA11C86C50F003D273F /* export_android_normal.png */,
+				BB3A1EA21C86C50F003D273F /* export_android_onclick.png */,
+				BB3A1EA31C86C50F003D273F /* export_ios_normal.png */,
+				BB3A1EA41C86C50F003D273F /* export_ios_onclick.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB521A381C1E610500929E5D /* iconMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB521A481C1E610600929E5D /* Build configuration list for PBXNativeTarget "iconMaker" */;
+			buildPhases = (
+				BB521A351C1E610500929E5D /* Sources */,
+				BB521A361C1E610500929E5D /* Frameworks */,
+				BB521A371C1E610500929E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iconMaker;
+			productName = iconMaker;
+			productReference = BB521A391C1E610500929E5D /* iconMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB521A311C1E610500929E5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = softmobile;
+				TargetAttributes = {
+					BB521A381C1E610500929E5D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BB521A341C1E610500929E5D /* Build configuration list for PBXProject "iconMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB521A301C1E610500929E5D;
+			productRefGroup = BB521A3A1C1E610500929E5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB521A381C1E610500929E5D /* iconMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB521A371C1E610500929E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB521A591C1EA9E200929E5D /* ios_logo.png in Resources */,
+				BB3A1EA71C86C50F003D273F /* export_ios_normal.png in Resources */,
+				BB521A411C1E610500929E5D /* Assets.xcassets in Resources */,
+				BB3A1EA61C86C50F003D273F /* export_android_onclick.png in Resources */,
+				BB2C65CC1C901EED00D987DA /* addfile.png in Resources */,
+				BB3A1EA51C86C50F003D273F /* export_android_normal.png in Resources */,
+				BB521A581C1EA9E200929E5D /* android_logo.png in Resources */,
+				BB521A441C1E610600929E5D /* Main.storyboard in Resources */,
+				BB3A1EA81C86C50F003D273F /* export_ios_onclick.png in Resources */,
+				BB2C65CA1C901E4A00D987DA /* sectoin_add.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB521A351C1E610500929E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFD447D1C1FC6EA00835F94 /* Extensions.swift in Sources */,
+				BB3A1EB41C86E3F8003D273F /* DropView.m in Sources */,
+				BB521A3F1C1E610500929E5D /* ViewController.swift in Sources */,
+				BB521A4E1C1E6CAF00929E5D /* JNUtility.swift in Sources */,
+				BB521A3D1C1E610500929E5D /* AppDelegate.swift in Sources */,
+				BB2C65D01C90290A00D987DA /* AboutWindowController.swift in Sources */,
+				BBFD44DB1C201F7900835F94 /* DialogViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB521A421C1E610600929E5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB521A431C1E610600929E5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB521A461C1E610600929E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB521A471C1E610600929E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB521A491C1E610600929E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iconMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = givingjan.iconMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iconMaker/iconMaker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB521A4A1C1E610600929E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iconMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = givingjan.iconMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iconMaker/iconMaker-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB521A341C1E610500929E5D /* Build configuration list for PBXProject "iconMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB521A461C1E610600929E5D /* Debug */,
+				BB521A471C1E610600929E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB521A481C1E610600929E5D /* Build configuration list for PBXNativeTarget "iconMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB521A491C1E610600929E5D /* Debug */,
+				BB521A4A1C1E610600929E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB521A311C1E610500929E5D /* Project object */;
+}
