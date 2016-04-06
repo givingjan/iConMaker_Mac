@@ -1,2 +1,2 @@
 # iConMaker
-a simple tool for make iOS app icon more easy.
+a simple tool for make iOS/Android app icon more easy.
