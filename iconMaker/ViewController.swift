@@ -27,7 +27,8 @@ class ViewController: NSViewController {
         initView()
     }
     func initView() {
-        
+        print("scale:\(NSScreen.mainScreen()?.backingScaleFactor)")
+
         // init DropView
         self.m_vDropView.initDrop();
         self.m_vDropView.getimageblock = {(image:NSImage!) -> Void in
@@ -109,7 +110,8 @@ class ViewController: NSViewController {
     }
     
     func saveImage(size:CGFloat) {
-        let image = resize(self.m_imgLogo!, w: size, h: size)
+        let scale :CGFloat = NSScreen.mainScreen()!.backingScaleFactor
+        let image = resize(self.m_imgLogo!, w: size/scale, h: size/scale)
         let strImgName = "icon_\(size.string(0))x\(size.string(0))"
         let filePathToWrite = "\(self.m_strFloderPath)/\(strImgName).png"
         var imageData = image.TIFFRepresentation
