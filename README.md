@@ -8,7 +8,7 @@
 # iConMaker
 ### a simple tool for make iOS/Android app icon.
 
-![img](iconMaker_Img.png)
+<img src="iconMaker_Img.png" width="400">
 
 ## How to Use
 
